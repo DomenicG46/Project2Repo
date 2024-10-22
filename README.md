@@ -1,2 +1,2 @@
 # Project2Repo
-Domenic, Kevin, Lauren, Sandeep, Micah
+Domenic, Kevin, Lauren, Sandeep, Micah P.
