@@ -10,22 +10,10 @@
 # BrainStroke Analysis and Brainstroke Prediction Model
 
 ## Overview
-
-
-
-
-## Data Sources
-
-The project uses the following datasets which are stored in the Resource folder:
-
-1. **Big Cities Health**: BigCitiesHealth.csv
-2. **Brain Stroke Data**: "brain_stroke.csv"
-
+The primary focus of this project is to compare and contrast the nature and performance of five separate machine learning models. We specifically focus on the causal relationships related to brain strokes in America, particularly concerning age, glucose levels, and BMI, and how these factors affect lethality. 
 
 Links to data
-- https://bigcitieshealthdata.org/
-- https://www.kaggle.com/datasets/jillanisofttech/brain-stroke-dataset
-- https://www.kaggle.com/datasets/bhavikjikadara/mental-health-dataset
+- https://www.kaggle.com/datasets/jillanisofttech/brain-stroke-datase
 
 ## Requirements
 
@@ -78,27 +66,3 @@ The following prediction models were then used to find the best prediction metho
 - KNeighbors (Domenic Guerrero) - Maximum Accuracy That can be obtained from this model is: 95.18072289156626 %
                                   Overall Accuracy: 94.74008257478813 %
 - RandomForestClassifier (?)
-- 
-# Key Features of Project?:
-- Write Here
-- another feature
-
-## Files Attached
-- 
-- 
-- 
-- 
-## Overall Project Analysis/Results
-T
-
-
-## License
-
-
-
-
-## Resources
-
-
-
-
