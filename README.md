@@ -8,7 +8,7 @@
  Domenic Guerrero
  Sandeep Singh
  Kevin Curry
- Micah Pardome
+ Micah Purdome
 
 
 ## Overview
