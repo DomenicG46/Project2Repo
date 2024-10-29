@@ -39,11 +39,16 @@ The primary focus of this project is to compare and contrast the nature and perf
    - **Attribute Data Types**: The data types of each attribute are verified to ensure compatibility with machine learning models. Proper data type allocation helps prevent errors during model training and can enhance computational efficiency.
 ### 2. **Model Selection and Implementation**
    The project utilizes multiple machine learning classifiers, and each model undergoes specific testing techniques to ensure it generalizes well to unseen data:
-   - **Logistic Regression**: Applied with both a simple train-test split and stratified cross-validation, Logistic Regression is used as a baseline classifier. The stratified approach ensures that the distribution of target classes (stroke vs. no stroke) is proportionally represented in each training and validation split.
-   - **K-Nearest Neighbors (KNN)**: This algorithm is chosen for its ability to capture local patterns in the data. Similar to Logistic Regression, it is tested with stratified cross-validation to provide a balanced view of performance.
-   - **Random Forest Classifier**: As an ensemble method, Random Forests are particularly useful in handling complex, high-dimensional data. The project includes experiments with cross-validation to assess the model's robustness.
-   - **Gradient Boosting Classifier**: Known for its strong predictive performance, Gradient Boosting is also assessed under cross-validation. This classifier adds weak learners iteratively to correct previous errors, making it highly adaptive.
-   - **Decision Tree Classifier**: Decision Trees are employed for their interpretability and ease of use. Their performance is evaluated using cross-validation to mitigate the risk of overfitting.
+   - **Logistic Regression**:
+   - **K-Nearest Neighbors (KNN)**:
+   - **Random Forest Classifier**:
+   - **Gradient Boosting Classifier**: 
+   - **Decision Tree Classifier**:
 ### 3. **Model Evaluation and Hyperparameter Tuning**
    - Each model undergoes **Grid Search** for hyperparameter tuning, where various parameter combinations are systematically tested to identify the optimal configuration for each model.
-   - **Stratified Cross-Validation** is consistently applied, ensuring that the evaluation metrics represent the model’s true performance across all target classes.
+   - **Stratified Cross-Validation** 
+
+
+##**Analysis**: 
+
+The models that were used, like Random Forest, K Nearest Neighbors, Logistic Regression, and Gradient Boost, all got a high accuracy of 0.95. The Decision Tree was still good but a little lower, at 0.91.The utilization of grid search is optimal only in the case of the decision tree, where its implementation resulted in a 4% increase in performance.Our analysis concluded that the random forest was the most optimal model.
