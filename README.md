@@ -1,31 +1,17 @@
-# Project2Repo
+# Analyzing Brain Stroke Data: An Exploration of Patient Attributes and Risk Factors
 
 # Team Members:
- Lauren Carter
- Domenic Guerrero
- Sandeep Singh
- Kevin Curry
- Micah Pardome
-
-# BrainStroke Analysis and Brainstroke Prediction Model
+ Lauren Carter,
+ Domenic Guerrero,
+ Sandeep Singh,
+ Kevin Curry,
+ Micah Purdome
 
 ## Overview
+The primary focus of this project is to compare and contrast the nature and performance of five separate machine learning models. We specifically focus on the causal relationships related to brain strokes in America, particularly concerning age, glucose levels, and BMI, and how these factors affect lethality. 
 
-
-
-
-## Data Sources
-
-The project uses the following datasets which are stored in the Resource folder:
-
-1. **Big Cities Health**: BigCitiesHealth.csv
-2. **Brain Stroke Data**: "brain_stroke.csv"
-
-
-Links to data
-- https://bigcitieshealthdata.org/
-- https://www.kaggle.com/datasets/jillanisofttech/brain-stroke-dataset
-- https://www.kaggle.com/datasets/bhavikjikadara/mental-health-dataset
+## Links to data
+- https://www.kaggle.com/datasets/jillanisofttech/brain-stroke-datase
 
 ## Requirements
 
@@ -46,59 +32,23 @@ Links to data
   - preprocessing
   from statistics import mean, stdev
   from xgboost import XGBClassifier
-    
-## Installation
-
-1. Clone the repository:
-   https://github.com/DomenicG46/Project2Repo.git
-   
-## Usage
-## 1. Loading the Data
-Load the required datasets using pandas:
-
-import pandas as pd
-from pathlib import Path
-
-## Load datasets
-   ??Projects/Repositories/Repo's/Project2Repo/brain_stroke.csv
-
-## 2. Data Cleaning and Preparation
--   In the BigCitiesHealth.csv we filtered through dataset to find the two prediction variables. There was alot
-  of data and we we went through thoroughly. After we found some interesting variables we focused on one particular cause of death.
-  Brainstrokes were an interesting cause of death and we searched for Data Set.
-- We then found Brainstroke.csv and we searched from there. We then cleaned the data to simplify our prediction variiables.
-- 
-## 3. Data Visualization
-The project uses Matplotlib to generate various plots and StandardScaler to set the x & y paramaeters.
-
-## Running Prediction Models
-The following prediction models were then used to find the best prediction method:
-- LogisticRegression (Lauren Carter?) - Maximum Accuracy That can be obtained from this model is: 95.18072289156626 %
-                                       Overall Accuracy: 95.02108634940564 %
-- KNeighbors (Domenic Guerrero) - Maximum Accuracy That can be obtained from this model is: 95.18072289156626 %
-                                  Overall Accuracy: 94.74008257478813 %
-- RandomForestClassifier (?)
-- 
-# Key Features of Project?:
-- Write Here
-- another feature
-
-## Files Attached
-- 
-- 
-- 
-- 
-## Overall Project Analysis/Results
-T
 
 
-## License
+### 1. **Data Preprocessing**
+   - **Checking for Missing Values**: The dataset is examined for any missing or null values to ensure data integrity. Handling missing data is critical as it can lead to biased predictions or reduce the model's effectiveness.
+   - **Attribute Data Types**: The data types of each attribute are verified to ensure compatibility with machine learning models. Proper data type allocation helps prevent errors during model training and can enhance computational efficiency.
+### 2. **Model Selection and Implementation**
+   The project utilizes multiple machine learning classifiers, and each model undergoes specific testing techniques to ensure it generalizes well to unseen data:
+   - **Logistic Regression**:
+   - **K-Nearest Neighbors (KNN)**:
+   - **Random Forest Classifier**:
+   - **Gradient Boosting Classifier**: 
+   - **Decision Tree Classifier**:
+### 3. **Model Evaluation and Hyperparameter Tuning**
+   - Each model undergoes **Grid Search** for hyperparameter tuning, where various parameter combinations are systematically tested to identify the optimal configuration for each model.
+   - **Stratified Cross-Validation** 
 
 
+## Analysis: 
 
-
-## Resources
-
-
-
-
+The models that were used, like Random Forest, K Nearest Neighbors, Logistic Regression, and Gradient Boost, all got a high accuracy of 0.95. The Decision Tree was still good but a little lower, at 0.91.The utilization of grid search is optimal only in the case of the decision tree, where its implementation resulted in a 4% increase in performance.Our analysis concluded that the random forest was the most optimal model.
