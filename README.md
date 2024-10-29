@@ -10,7 +10,7 @@
 ## Overview
 The primary focus of this project is to compare and contrast the nature and performance of five separate machine learning models. We specifically focus on the causal relationships related to brain strokes in America, particularly concerning age, glucose levels, and BMI, and how these factors affect lethality. 
 
-##Links to data
+## Links to data
 - https://www.kaggle.com/datasets/jillanisofttech/brain-stroke-datase
 
 ## Requirements
