@@ -49,6 +49,6 @@ The primary focus of this project is to compare and contrast the nature and perf
    - **Stratified Cross-Validation** 
 
 
-#**Analysis**: 
+## Analysis: 
 
 The models that were used, like Random Forest, K Nearest Neighbors, Logistic Regression, and Gradient Boost, all got a high accuracy of 0.95. The Decision Tree was still good but a little lower, at 0.91.The utilization of grid search is optimal only in the case of the decision tree, where its implementation resulted in a 4% increase in performance.Our analysis concluded that the random forest was the most optimal model.
