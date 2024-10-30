@@ -46,7 +46,7 @@ The primary focus of this project is to compare and contrast the nature and perf
    - **Decision Tree Classifier**:
 ### 3. **Model Evaluation and Hyperparameter Tuning**
    - Each model undergoes **Grid Search** for hyperparameter tuning, where various parameter combinations are systematically tested to identify the optimal configuration for each model.
-   - **Stratified Cross-Validation** 
+   - We used **Stratified Cross-Validation** to ensure each fold maintained the same stroke distribution, addressing any data imbalance.
 
 
 ## Analysis: 
