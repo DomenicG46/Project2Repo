@@ -5,7 +5,7 @@
  Domenic Guerrero
  Sandeep Singh
  Kevin Curry
- Micah Pardome
+ Micah Purdome
 
 # BrainStroke Analysis and Brainstroke Prediction Model
 
@@ -99,6 +99,6 @@ T
 
 ## Resources
 
-
+Helpful video on the basics of a grid search (https://www.youtube.com/watch?v=QB7ACr7pUuE&pp=ygUYcmljayByb2xsIGFsdGVybmF0ZSBsaW5r)
 
 
